@@ -40,9 +40,11 @@
 
 其中：
 
-- [`lightdm.conf.d`](https://github.com/jidro/lightdm-config/tree/master/lightdm.conf.d "lightdm.conf.d")文件夹与[`lightdm-gtk-greeter.conf.d`](https://github.com/jidro/lightdm-config/tree/master/lightdm-gtk-greeter.conf.d "lightdm-gtk-greeter.conf.d")文件夹均为`/usr/share/lightdm`文件夹内的配置文件。 - 用户配置目录    </br>
-
-- [`mx21`](https://github.com/jidro/lightdm-config/tree/master/mx21 "mx21")文件夹、[`keys.conf`](https://github.com/jidro/lightdm-config/blob/master/keys.conf "keys.conf")配置文件、[`lightdm-gtk-greeter.conf`](https://github.com/jidro/lightdm-config/blob/master/lightdm-gtk-greeter.conf "lightdm-gtk-greeter.conf")配置文件、[`lightdm.conf`](https://github.com/jidro/lightdm-config/blob/master/lightdm.conf "lightdm.conf")配置文件与[`users.conf`](https://github.com/jidro/lightdm-config/blob/master/users.conf "users.conf")配置文件均为`/etc/lightdm`文件夹内的配置文件。 - 系统配置目录    </br>
+- [`lightdm-share`](https://github.com/jidro/lightdm-config/tree/master/lightdm-share "lightdm-share")文件夹内配置文件为`/usr/share/lightdm`文件夹内的配置文件。 - 用户配置目录
+  
+- [`lightdm-etc`](https://github.com/jidro/lightdm-config/tree/master/lightdm-etc "lightdm-etc")文件夹内的配置文件均为`/etc/lightdm`文件夹内的配置文件。 - 系统配置目录
+  
+- 两个配置文件夹内后缀名为`.tar`的压缩文件为`/usr/share/lightdm`文件夹和`/etc/lightdm`文件夹内的原始文件。 【备份所用】
 
 > **提示：**    </br>
 > 
@@ -98,9 +100,11 @@ There are not many modifications to meet the daily needs.    </br>
 
 Of which ：    </br>
 
-- [`lightdm.conf.d`](https://github.com/jidro/lightdm-config/tree/master/lightdm.conf.d "lightdm.conf.d")folder and [`lightdm-gtk-greeter.conf.d`](https://github.com/jidro/lightdm-config/tree/master/lightdm-gtk-greeter.conf.d "lightdm-gtk-greeter.conf.d")folder all are`/usr/share/lightdm` configuration files in the folder. - User configuration directory    </br>
-
-- [`mx21`](https://github.com/jidro/lightdm-config/tree/master/mx21 "mx21")folder、[`keys.conf`](https://github.com/jidro/lightdm-config/blob/master/keys.conf "keys.conf") configuration file、[`lightdm-gtk-greeter.conf`](https://github.com/jidro/lightdm-config/blob/master/lightdm-gtk-greeter.conf "lightdm-gtk-greeter.conf") configuration file、[`lightdm.conf`](https://github.com/jidro/lightdm-config/blob/master/lightdm.conf "lightdm.conf") configuration file and [`users.conf`](https://github.com/jidro/lightdm-config/blob/master/users.conf "users.conf") configuration file Are configuration files in the ` / etc / lightdm ` folder. - System Configuration Directory    </br>
+- The configuration file in the [lightdm-share](https://github.com/jidro/lightdm-config/tree/master/lightdm-share "lightdm-share") folder is the configuration file in the `/usr/share/lightdm` folder - User Configuration Directory
+  
+- The configuration files in the [lightdm-etc](https://github.com/jidro/lightdm-config/tree/master/lightdm-etc "lightdm-etc") folder are all configuration files in the `/etc/lightdm` folder- System configuration directory
+  
+- The compressed files with the suffix `. tar` in the two configuration folders are the original files in the `/usr/share/lightdm` folder and the `/etc/lightdm` folder. 【For backup】
 
 > **Tip：**     </br>
 > 
